@@ -1,0 +1,79 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    height: 100px;
+    width:100%;
+}
+
+.home{
+    position:absolute;
+    left:100px;
+    color:white;
+    font-size: 30px;
+
+}
+.signup{
+    position: absolute;
+    left:200px;
+    color:white;
+    font-size: 30px;
+}
+
+.login{
+    position: absolute;
+    left:300px;
+    color:white;
+    font-size: 30px;
+}
+
+.logout{
+    position: absolute;
+    left:200px;
+    color:white;
+    font-size: 30px;
+}
+.username{
+    position: absolute;
+    left:300px;
+    color:white;
+    font-size: 30px;
+}
+
+.text{
+    position:absolute;
+    left:120px;
+    top:60px;
+    font-size:20px;
+    width:150px;
+}
+
+.btn:hover{
+    color:white;
+    background-color:lime ;
+}
+
+.form-control{
+    width:90%;
+}
+.btn{
+    position: absolute;
+    left:300px;
+    top: 60px;
+    font-size: 20px;
+   border-radius: 3px;
+   cursor:pointer;
+   /* background-color: blue; */
+   color:grey;
+}
+
+table td,table th{
+    margin:0px 20px;
+    padding:0px 30px
+}
+
+.add{
+    font-size: 15px;
+}
